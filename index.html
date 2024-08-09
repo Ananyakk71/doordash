@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML forms</title>
+    </head> 
+    <body>
+
+       <h1>HTML forms</h1>
+
+      <form>
+        <label for="username">enter username</label>
+        <input type="text" id="username">
+        <br><br>
+        <label for="email">enter email id</label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="age">age</label>
+        <input type="number" id="age">
+        <br><br>
+        <label for="date of birth">DOB</label>
+        <input type="date" id="DOB">
+        <br><br>
+        <label for="password">enter a password:</label>
+        <input type="password" id="password">
+      </form>
+      <form action="">
+        <p> gender:</p>
+        <input type="radio" name="gender" value="male"> male<br>
+        <input type="radio" name="gender" value="female"> female<br>
+        <input type="radio" name="gender" value="other">other
+      </form>
+      <p><b>Note:</b> When a user clicks on a radio-button, it becomes checked, and all other radio-button with equal name become unchecked.</p>
+      <p> select your age:</p>
+      <input type="radio" name="age" value="0-25" id="option-1">
+      <label for="option-1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option-2">
+      <label for="option-2">26-50</label>
+      <input type="radio" name="age" value="50+" id="option-3">
+      <label for="option-2">50+</label>
+
+      <form action="">
+        <p>select your age:</p>
+        <input type="radio" name="age" value="0-20">0-20
+        <input type="radio" name="age" value="20-50">20-50    
+        </form>
+        <br><br>
+        <label for="">favourite colour:</label>
+        <select name="question" id="question">
+        <option value="q1">red</option>
+        <option value="q2">blue</option>
+        <option value ="q3">other</option>
+
+        <br><br>
+        <label for="">security question:</label>
+        <select name="question" id="question">
+          <option value="q1">what colour are your favourite pair of socks?</option>
+          <option value="q2">If you could be a vegetable, what it be?</option>
+          <option value="q3"> what is your best ever security question</option>
+        </select>
+        <br><br>
+        <label for="answer">security question</label>
+        <input type="text" id="answer" name="answer">
+        </select>
+        
+
+        <br><br>
+
+        <label for="bio">your bio</label><br><br>
+        <textarea name="bio" id="bio" "cols="30" rows="10">about you</textarea>
+
+        <br><br>
+        <input type="submit" value="submit the form">
+    </body>
+</html>
