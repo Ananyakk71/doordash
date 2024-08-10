@@ -1,0 +1,74 @@
+/*.error{
+    color: red;
+}
+p.success{
+    color: #0059ffd2;
+    border: 4px dotted yellow;
+}
+div#content{
+    background-color: #ebebebc4;
+    padding:20px;
+
+}
+div p{
+    color: red;
+}
+div .error{
+    color: blue;
+}
+a[href="https://www.thenetninja.co.uk"]{
+    background-color: #31be3d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: upprcase;
+}
+a[herf$=".com"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+}
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 20px;
+    font-weight: bold;
+  }
+  p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+ }
+
+ body{
+    background-color: powderblue;
+ }
+ h1{
+    color: blue;
+    background-color: aqua;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+ }
+ p{
+    color: red;
+    font-style: normal;
+ }
+ p.error{
+    color:red
+ }
+ *{
+    text-align: center;
+    color: rgb(184, 201, 30);
+ }*/
+ h1{
+    color: #eee;
+    background-color: dodgerblue;
+   
+ }
+ p{
+    color: aliceblue;
+    background-color: tomato;
+ }
