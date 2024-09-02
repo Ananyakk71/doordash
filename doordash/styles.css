@@ -1,0 +1,695 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 7010px;
+    box-sizing: border-box;
+ }
+ .frame{
+    height: 650px;
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+    padding: 0px 8px;
+    align-items: center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    z-index: 1;
+ }
+ .logo{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    box-sizing: border-box;
+    width: 209px;
+ }
+ .logo .logoin{
+    height: 24px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+ }
+ .logoin .logo1{
+    box-sizing: border-box;
+    width: 42px;
+    height: 24px;
+    fill: #ffffff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.logoin .logo2{
+    height: 18px;
+    box-sizing: border-box;
+    fill: #ffffff;
+    line-height: 0px;
+    margin-left: 12px;
+}
+.logoin .logo2 .logo2in{
+    width: 155px;
+    height: 18px;
+    fill: #ffffff;
+   } 
+   .main{
+    align-items: center;
+    box-sizing: border-box;
+    height: 578px;
+    width: 742.414px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+   }
+   .heading{
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    width: 742.414px;
+   }
+   .heading h1{
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 40px;
+    font-variant-ligatures: no-common-ligatures;
+    font-weight: 700;
+    height: 40px;
+    letter-spacing: -0.01px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+    max-width: 750px;
+    text-align: center;
+    text-decoration-line: none;
+    text-decoration-color: #ffffff;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: none;
+    width: 742.414px;
+   }
+   .heading h1{
+    @font-face {
+        font-family:tt-norms-pro ,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+        src: url(tt-norms-pro (1).zip);
+    }
+   }
+   .main .top{
+    box-sizing: border-box;
+    display: block;
+    font-variant-ligatures: no-common-ligatures;
+    height: 40px;
+    left: 0px;
+    margin-top: 16px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+   }
+   .top .topin{
+    box-sizing: border-box;
+    column-gap: 8px;
+    display: flex;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-variant-ligatures: no-common-ligatures;
+    height: 40px;
+    justify-content: flex-end;
+    padding-right: 24px;
+    row-gap: 8px;
+  
+   }
+  .topin .button1{
+    height: 40px;
+    align-items: center;
+    background-color: red;
+    border-bottom-color: white;
+    border-radius: 9999px;
+    border-bottom-style: none;
+    border-image-outset: 0;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-variant-ligatures: no-common-ligatures;
+    justify-content: flex-start;
+    margin: 0px;
+    max-width: 100%;
+    min-height: 40px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    
+    width: 81.531px;
+  }
+  .button1 a{
+    height: 22px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    font-variant-ligatures: no-common-ligatures;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0px;
+    text-decoration-line: none;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-overflow: ellipsis;
+    text-transform: none;
+    text-wrap: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  .topin .button2{
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    border-bottom-color: black;
+    border-radius: 9999px;
+    border-bottom-style: none;
+    border-image-outset: 0;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-variant-ligatures: no-common-ligatures;
+    justify-content: flex-start;
+    margin: 0px;
+    max-width: 100%;
+    min-height: 40px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 81.531px;
+  }
+  .button2 a{
+    height: 22px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    font-variant-ligatures: no-common-ligatures;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0px;
+    text-decoration-line: none;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-overflow: ellipsis;
+    text-transform: none;
+    text-wrap: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  .main .search{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-variant-ligatures: no-common-ligatures;
+    height: 104px;
+    justify-content: center;
+    max-width: 100%;
+    width: 742.414px;
+  }
+  .search .searchbar{
+    height: 56px;
+    box-sizing: border-box;
+    display: block;
+    width: 408px;
+    font-variant-ligatures: no-common-ligatures;
+    margin-top: 0px;
+    max-width: 100%;
+    min-height: 40px;
+   }
+  .searchbarinput{
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 40px;
+    border-radius:32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .searchbarinput .inputlogo{
+    height: 24px;
+    box-sizing: border-box;
+    margin-right: 12px;
+    max-width: 100%;
+  }
+  .inputlogo img{
+    width: 24px;
+    height: 24px;
+    fill: none;
+  }
+  .searchbarinput .inputcontent{
+    height: 22px;
+    background-clip: border-box;
+    background-size: auto;
+    font-size: 16px;
+    font-variant-ligatures: no-common-ligatures;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 22px;
+    max-width: 100%;
+    width: 292px;
+  }
+  .inputcontent input{
+    height: 22px;
+    padding: 0px;
+    text-align: start;
+    text-overflow: ellipsis;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    width: 100%;
+    border: none;
+    display: flex;
+    cursor: text;
+  }
+  .searchbar .inputarrow{
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .inputarrow .arrow{
+    align-items: center;
+    appearance: auto;
+    background-attachment: scroll;
+    background-color: red;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    cursor: pointer;
+    max-width: 100%;
+    margin: 0px;
+    display: inline-flex;
+    min-height: 40px;
+    border-radius: 9999px;
+    border: none;
+    color: white;
+    text-align: center;
+    height: 40px;
+    justify-content: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    position: relative;
+    text-decoration-style: solid;
+    width: 40px;
+  }
+  .search .sign{
+    height: 32px;
+    align-items: center;
+    appearance: auto;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    font-stretch: 100%;
+    font-size: 13.3333px;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: white;
+  }
+  .sign .savedaddress{
+    height: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+  }
+  .savedaddress .icon{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+  }
+  .savedaddress a{
+    height: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 4px;
+    min-width: 0px;
+    text-align: center;
+    width: 159.492px;
+    color: black;
+    text-decoration: none;
+    max-width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  .inside{
+      box-sizing: border-box;
+      display: block;
+      font-variant-ligatures: no-common-ligatures;
+      height: 636px;   
+      width: 1104px;
+      max-width: 1184px;
+  }
+    .inside .inset{
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: row;
+      font-variant-ligatures: no-common-ligatures;
+      height: 444px;
+      justify-content: center;
+      margin-bottom: 96px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 96px;
+      max-width: 100%;
+      padding:12px;
+      width: 1104px;
+  }
+  .inset .insetin{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 420px;
+    justify-content: center;
+    width: 1080px;
+  }
+  .insetin .inset1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-variant-ligatures: no-common-ligatures;
+    height: 420px;
+    margin: 0px;
+    max-width: 100%;
+    padding: 16px;
+    width: 360px;
+  }
+  .inset1 .img{
+    box-sizing: border-box;
+    display: flex;
+    height: 154px;
+    justify-content: center;
+    margin-right: 64px;
+    width: 264px;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1184px){
+    .inside .inset{
+      height: 704px;
+      padding: 8px;
+      margin-bottom: 32px;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      width: 486px;
+     }
+     .inset .insetin{
+      height: 688px;
+      width: 470px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+     }
+     .inset .inset1{
+      flex-direction: row;
+      height: 216px;
+      min-width: 360px;
+      width: 470px;
+     }
+     .inset1 .img{
+      height: 184px;
+      width: 124px;
+     }
+   }
+ @media screen and (max-width:768px){
+    body{
+        height: 7514px;
+    }
+    .frame{
+        height: 550px;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 18px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        width: 152px;
+    }
+    .logo .logoin{
+        height: 18px;
+        width: 152px; 
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        font-variant-ligatures: no-common-ligatures;
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+    .logoin .logo1{
+       height: 18px;
+       width: 32px;
+    }
+    .logoin .logo2{
+       height: 13px;
+       width: 112px;
+       margin-left: 8px;
+       line-height: 0px;
+    }
+      .logo2 .logo2in{
+        height: 13px;
+        width: 112px;
+       }
+   .main{
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 350px;
+   }
+   .heading{
+    height: 56px;
+    width: 350px;
+   }
+   .heading h1{
+    height: 56px;
+    width: 350px;
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 350px;
+   }
+   .main .top{
+    height: 32px;
+    top: 79px;
+   }
+   .top .topin{
+    height: 32px;
+    width: 676px;
+
+   }
+   .topin .button1{
+    height: 32px;
+    width: 66.3516px;
+    background-color: #ffffff;
+    min-height: 32px;
+   }
+   .button1 a{
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    width: 42.3516px;
+    min-height: 32px;
+   }
+   .topin .button2{
+    height: 32px;
+    width: 100.85px;
+    background-color: red;
+   }
+   .button2 a{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    width: 42.3516px;
+    min-height: 32px;
+   }
+   .main .search{
+    height: 100px;
+    width: 350px;
+   }
+   .search .searchbar{
+    height: 52px;
+    width: 297px;
+   }
+   .searchbar .searchbarinput{
+    height: 40px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 16px;
+    width: 297.5px;
+   }
+   .searchbarinput .inputcontent{
+    width: 177.5px;
+   }
+   .inputcontent input{
+      width: 177.5px;
+   }
+   .searchbar.inputarrow{
+    height: 24px;
+    width: 24px;
+   }
+   .inside{
+    height: 784px;
+    width: 418px;
+    max-width: 768px;
+   }  
+   .inside .inset{
+   height: 704px;
+   width: 418px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   padding: 8px;
+   }
+   .inset .insetin{
+    height: 688px;
+    width: 402px;
+    display: flex;
+    flex-direction: column;
+   }
+   .insetin .inset1{
+    flex-direction: row;
+    height: 216px;
+    width: 402px;
+    min-width: 360px;
+   }
+   .inset1 .img{
+    height: 184px;
+    width: 88px;
+    margin-right: 32px;
+   }
+}
+@media screen and (max-width:775px){
+    .heading{
+        height: 80px;
+        width: 741px;
+    }
+}
+
+ @media screen and (max-width:958px){
+    .logo{
+        height: 18px;
+    }
+    .logoin{
+        height: 18px;
+    }
+    .logoin .logo1{
+        height: 18px;
+        width: 32px;
+    }
+    .logoin .logo2{
+        height: 13px;
+        margin-left: 8px;
+    }
+    .logo2 .logo2in{
+        height: 13px;
+        width: 112px;
+    }
+    .main{
+        height: 584px;
+        width: 742.414px;
+    }
+ }
+ @media screen and (max-width:977px){
+    body{
+        height: 7168px;
+    }
+ }
+ @media screen and (max-width:1166px)
+ {
+    body{
+        height: 7164px;
+    }
+ }
+ @media screen and (max-width:1184px){
+    .inputarrow .arrow{
+        background-color: white;
+        color: black;
+    }
+    .inside{
+      height: 768px;
+      width: 486px;
+    }
+  
+ }
+ 
