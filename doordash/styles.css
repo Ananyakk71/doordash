@@ -1,8 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: 7010px;
-    box-sizing: border-box;
+    align-items: center;
+    box-sizing: border-box;  
+    display: block;
+    overflow-x: hidden;
  }
  .open{
   display: none;
@@ -81,10 +83,10 @@ body{
     box-sizing: border-box;
     color: white;
     display: block;
-    font-size: 39.0px;
-    font-weight: 700;
+    font-size: 39px;
+    font-weight: 680;
     height: 50px;
-    letter-spacing: -0.01px;
+    letter-spacing: 0.03px;
     line-height: 40px;
     margin: 0px;
     padding: 0px;
@@ -371,11 +373,6 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   .inside{
-      box-sizing: border-box;
-      display: block;
-      font-variant-ligatures: no-common-ligatures;
-      height: 636px;   
-      width: 1104px;
       max-width: 1184px;
       margin-left: 170px;
       margin-top: 110px;
@@ -407,12 +404,11 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    font-variant-ligatures: no-common-ligatures;
     height: 420px;
     margin: 0px;
     max-width: 100%;
+    min-width: 360px;
     padding: 16px;
-    width: 360px;
   }
   .inset1 .img{
     box-sizing: border-box;
@@ -847,14 +843,11 @@ body{
   .details{
     box-sizing: border-box;
     display: block;
-    height: 5370px;
-    width: 1172px;
-   
+    width: 100%; 
   }
   .details .first{
     box-sizing: border-box;
     display: block;
-    font-variant-ligatures: no-common-ligatures;
     height: 544px;
     width: 100%;
   }
@@ -863,13 +856,12 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    font-variant-ligatures: no-common-ligatures;
     height: 544px;
     justify-content: center;
     margin-bottom: -60px;
     min-width: 90%;
     padding: 20px;
-    width: 1172px;
+    width:100%;
     }
     .first .firstin .first-in{
       align-content: space-between;
@@ -951,14 +943,13 @@ body{
       color: #191919ff;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       font-size: 16px;
-      font-variant-ligatures: no-common-ligatures;
       font-weight: 500;
       line-height: 22px;
       height: 66px;
       letter-spacing: -0.01px;
       padding: 0px;
       text-align: left;
-      width: 400px;
+      width:100%;
     }
     .firstin .leftside .select .find{
       box-sizing: border-box;
@@ -997,24 +988,18 @@ body{
     .firstin .rightside{
       box-sizing: border-box;
       display: block;
-      font-variant-ligatures: no-common-ligatures;
-      width: 100%;
-      height: 504px;
+      width: 100%;     
     }
     .firstin .rightside img{
       box-sizing: border-box;
       display: inline;
-      font-variant-ligatures: no-common-ligatures;
-      height: 500px;
       object-fit: cover;
-      overflow-y: clip;
-      overflow-x: clip;
       width: 100%;
     }
     .details .second{
       box-sizing: border-box;
       display: block;
-      width: 1172px;
+      width: 100%;
       height: 604px;
     }
     .second .secondin{
@@ -1159,7 +1144,6 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    font-variant-ligatures: no-common-ligatures;
     height: 600px;
     justify-content: center;
     top: 0px;
@@ -1858,19 +1842,159 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
 }
+.details .opportunity{
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 60px;
+  width: 100%;
+}
+.opportunity p{
+  box-sizing: border-box;
+  color:rgb(25, 25, 25);
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  height: 80px;
+  letter-spacing: -0.01px;
+  line-height: 40px;
+  margin: 0px;
+  max-width: 500px;
+  padding: 0px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.details .fifth{
+  box-sizing: border-box;
+  display: block;
+  height: 544px;
+  width: 100%;
+}
+.details .fifth .fifthin{
+  align-items: center;
+  box-sizing: border-box;
+  height: 544px;
+  justify-content: center;
+  margin-bottom: -60px;
+  min-width: 90%;
+  padding: 20px;
+}
+.details .fifthin .fifth-in{
+  align-content: space-between;
+  box-sizing: border-box;
+  column-gap: 60px;
+  display: flex;
+  flex-direction: row;
+  height: 504px;
+  row-gap: 60px;
+  max-width: 1184px;
+}
+.fifthin .fifthin .leftside{
+  display: block;
+  height: 256px;
+  margin-bottom: 124px;
+  margin-top: 24px;
+  max-width: 400px;
+}
+.fifth .fifthin .leftside .leftside-in{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; 
+}
+.fifthin .leftside-in h2{
+  box-sizing: border-box;
+  color: rgb(25, 25, 25);
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 40px;
+  font-weight: 700;
+  height: 80px;
+  letter-spacing: -0.01px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  text-align: left;
+  padding: 0px;
+  width: 360px;
+}
+.fifthin .leftside-in p{
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 500;
+  height: 66px;
+  line-height: 22px;
+  letter-spacing: -0.01px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  text-align: left;
+  width: 400px;
+}
+.fifthin .leftside .leftside-in .becomedasher{
+  display: block;
+  height: 40px;
+  margin-top: 30px;
+  text-align: left;
+  width: 400px;
+}
+.fifthin .leftside-in .becomedasher a{
+  align-items: center;
+  background-color: rgb(235, 23, 0);
+  border-radius: 9999px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  min-height: 40px;
+  position: relative;
+  text-align: center;
+  width: 152.812px;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 700;
+}
+.fifthin .rightside{
+  display: block;
+  height: 504px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 500px;
+  margin-top: -280px;
+}
+.fifthin .rightside img{
+  width: 609px;
+  height: 500px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
   @media screen and (min-width: 769px) and (max-width: 1184px){
     .inside{
-      height: 768px;
-      width: 486px;
+      max-width: 768px;
       margin-left: 300px;
     }
     .inside .inset{
-      height: 704px;
-      padding: 8px;
       margin-bottom: 32px;
       margin-top: 32px;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      max-width: 100%;
+      padding: 8px;
+      height: 704px;
       width: 486px;
      }
      .inset .insetin{
@@ -1903,12 +2027,12 @@ body{
      }
      .inset2 .img{
       height: 184px;
-      width: 124px;
+      width: 134px;
      }
      .inset2 .img .icon{
       display: inline;
-      height: 124px;
-      width: 124px;
+      height: 184px;
+      width: 184px;
      }
      .inset .inset3{
       flex-direction: row;
@@ -1925,11 +2049,37 @@ body{
       height: 124px;
       width: 124px;
      }
+     .details{
+      height: 4576px;
+      width: 1161px;
+      margin-left: -260px;
+     }
+     .details .first{
+      width: 100%;
+     }
+     .second .secondin{
+      margin-top: -80px;
+      margin-left: -40px;
+    }
+    .details .grocery{
+      margin-left: -40px;
+    }
+    .details .help{
+      margin-top: -40px;
+      margin-left: -40px;
+    }
+    .details .fourth{
+      margin-left: -40px;
+    }
+     .details .firstin{
+       height: 504px;
+     }
+     .details .first-in{
+      max-width: 1184px;
+     }
+     
    }
  @media screen and (max-width:768px){
-    body{
-        height: 7514px;
-    }
     .open{
       display: block;
       height: 70px;
@@ -2202,10 +2352,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
    .inside{
-    height: 784px;
-    width: 418px;
     max-width: 768px;
-   
    }  
    .inside .inset{
    height: 704px;
@@ -2286,8 +2433,7 @@ body{
     min-width: 90%;
     height: 406px;
     width: 100%;
-  
-    margin-left: -160px;
+    margin-left: -220px;
   }
   .firstin .rightside{
     height: 184px;
@@ -2317,9 +2463,9 @@ body{
   }
   .firstin .leftside .select p{
     font-size: 14px;
-    width: 694px;
+    width:100%;
     line-height: 20px;
-    height: 40px;
+    height: auto;
   }
   .firstin .leftside .select .find{
     height: 32px;
@@ -2333,9 +2479,12 @@ body{
   .details .second{
     height: 674px;
     margin-left: -180px;
-    margin-top: -300px;
-    padding-top: 10px;
-    
+    margin-top: -260px;
+    padding-top: 10px; 
+    width: 760px;
+  }
+  .details .secondin{
+    height: 734px;
   }
   .details .second-in{
     display: flex;
@@ -2352,7 +2501,7 @@ body{
     display: inline;
     height: 180px;
     width: 730px;
-    margin-left: 20px;
+    margin-left: 230px;
     margin-top: -80px;
   }
   .second-in .aboutdashpass{
@@ -2362,21 +2511,319 @@ body{
   .second-in .aboutdashpass h2{
     font-size: 24px;
     line-height: 28px;
+    margin-left: -770px;
+    margin-top: -5px;
   }
   .second-in .aboutdashpass p{
     font-size: 14px;
-    height: 40px;
+    height:40px;
+    line-height: 20px;
+    margin-left: -770px;
+    margin-top: -35px;
+    width: 500;
   }
   .second-in .aboutdashpass .get{
     height: 32px;
     margin-top: 20px;
+    margin-left: -770px;
   }
   .second-in .aboutdashpass .get a{
     height: 32px;
   }
+  .details .grocery{
+    height: 350px;
+    margin-left: -180px;
+    width: 760px;
+  }
+  .grocery .getgrocery{
+     height: 350px;
+  }
+  .getgrocery .points{
+    height: 210px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+  .getgrocery .points h2{
+    font-size: 24px;
+    height: 56px;
+    line-height: 28px;
+  }
+  .getgrocery .points h4{
+    font-size: 17px;
+    height: 23px;
+    line-height: 22px;
+    margin-top: 10px;
+    width: 344.281px;
+  }
+  .getgrocery .points p{
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .getgrocery .shop{
+    height: 32px;
+    margin-top: 20px;
+    width: 123.891px;
+  }
+  .getgrocery .shop a{
+    height: 32px;
+    min-height: 32px;
+    width: 123.891px;
+  }
   .details .third{
     height: 354px;
-    width: 114.117px;
+  }
+  .third .thirdin{
+    height: 354px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: -120px;
+  }
+  .thirdin .third-in .rightside{
+    height: 184px;
+  }
+  .third-in .rightside img{
+    height: 180px;
+    width: 700px;
+    margin-top: -30px;
+    margin-left: -500px;
+  }
+  .third-in .leftside-in{
+    height: 130px;
+  }
+  .third-in  .leftside .leftside-in h2{
+    font-size: 21.1px;
+    line-height: 24px;
+    width: 518.211px;
+    max-width: 90%;
+    height: 28px;
+    margin-top: 60px;
+  }
+  .third-in .leftside .leftside-in p{
+    font-size: 14px;
+    line-height: 20px;
+    width: 575.797px;
+    margin-top: 5px;
+  }
+  .third-in .leftside-in .shopnow{
+    height: 32px;
+    width: 575.797px;
+    margin-top: -5px;
+  }
+  .third-in .leftside-in .shopnow a{
+    height: 32px;
+    min-height: 32px;
+    width: 90.7734px;
+  }
+  .details .help{
+    height: 116px;
+    padding-top: 40px;
+    width: 760px;
+    margin-left: -180px;
+  }
+  .details .help p{
+    font-size: 24px;
+    height: 56px;
+    line-height: 28px;
+    max-width: 300px;
+    width: 300px;
+  }
+  .details .fourth{
+    display: flex;
+    flex-direction: row;
+    height: 402px;
+    width: 880px;
+    margin-left: -300px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+  .details .fourth-in .return{
+    height: 402px;
+    margin-left: 35.6953px;
+    margin-right: -71.3984px;
+    min-width: 90%;
+  }
+  .details .return .picture{
+    height: 184px;
+    width: 90%;
+    margin-top: 600px;
+  }
+  .details .return .picture img{
+    height: 180px;
+    width: 90%;
+    margin-left: 50px;
+  }
+  .details .return .content{
+    height: 150px;
+    width: 580.094px;
+    margin-top: 180px;
+  }
+  .details .return .content h2{
+    font-size: 24px;
+    height: 28px;
+    line-height: 28px;
+    width: 413.672px;
+   
+  }
+  .details .return .content p{
+    font-size: 13px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 20px;
+    width: 517.094px;
+  }
+  .details .return .content .pickup{
+    height: 32px;
+    margin-top: 20px;
+    width: 150.523px;
+  }
+  .details .return .content .pickup a{
+    height: 32px;
+    width: 150.523px;
+  }
+  .details .fourth-in .flowers{
+    height: 402px;
+    margin-left:30.9453px;
+    margin-right:-61.8984px;
+    min-width: 90%;
+    margin-top: 600px;
+    margin-left: -30px;
+  }
+  .fourth-in .flowers .picture{
+    height: 184px;
+    width: 90%;
+  }
+  .fourth-in .flowers .picture img{
+    height: 180px;
+     width: 90%;
+  }
+  .fourth-in .flowers .content{
+    height: 130px;
+    width: 475.766px;
+  }
+  .fourth-in .flowers .content h2{
+    font-size: 24px;
+    height: 28px;
+    line-height: 28px;
+    width: 372.281px;
+  }
+  .fourth-in .flowers .content p{
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    width: 475.766px;
+  }
+  .fourth-in .flowers .content .send{
+    height: 32px;
+    margin-top: 20px;
+    width: 111.594px;
+  }
+  .fourth-in .flowers .content .send a{
+    height: 32px;
+    width: 150.523px;
+  }
+  .details .fourth .restock{
+    height: 402px;
+    margin-right:-61.8984px;
+    min-width: 90%;
+    margin-top: 100px;
+    margin-left: 520px;
+  }
+  .fourth .restock .picture{
+    height: 184px;
+    width: 90%;
+  }
+  .fourth .restock .picture img{
+    height: 325px;
+    width: 90%;
+  }
+  .fourth-out .restock .content{
+    height: 178px;
+    width: 517.094px;
+    margin-top: 400px;
+  }
+  .fourth-out .restock .content h2{
+    font-size: 23px;
+    height: 28px;
+    line-height: 28px;
+    width: 223.25px;
+  }
+  .fourth-out .restock .content p{
+    font-size: 12.5px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 20px;
+    width: 517.094px;
+  }
+  .fourth-out .restock .content .shopalcohol{
+    height: 32px;
+    margin-top: 20px;
+    width: 111.617px;
+  }
+  .fourth-out .restock .content .shopalcohol a{
+    height: 32px;
+    width: 110.617px;
+  }
+  .fourth-out .restock .content h4{
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+    width: 176,445px;
+  }
+  .details .fourth .petsneed{
+    min-width: 90%;
+   margin-left: -40px;
+  }
+  .fourth .petsneed .picture{
+    height: 184px;
+    width: 90%;
+    margin-top: 180px;
+    
+  }
+  .fourth .petsneed .picture img{
+    height: 245px;
+    width: 100%;
+  }
+  .fourth-out .petsneed .content{
+    height: 150px;
+    width: 517.094px;
+    margin-top: 140px;
+  }
+  .fourth-out .petsneed .content h2{
+    font-size: 24px;
+    height: 24px;
+    line-height: 28px;
+    width: 353.25px;
+  }
+  .fourth-out .petsneed .content p{
+    font-size: 12.5px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: -14px;
+    width: 517.094px;
+  }
+  .fourth-out .petsneed .content .petsupplies{
+    height: 32px;
+    margin-top: 20px;
+    width: 133.531px;
+  }
+  .fourth-out .petsneed .content .petsupplies a{
+    height: 32px;
+    width: 133.531px;
+  }
+  .details .opportunity{
+    height: 116px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+  .opportunity p{
+    font-size: 24px;
+    height: 56px;
+    line-height: 28px;
+    max-width: 300px;
   }
 }
 @media screen and (max-width:1184px){
@@ -2384,6 +2831,7 @@ body{
       background-color: white;
       color: black;
   }
+  
 }
 @media screen and (min-width:1184px){
   .details{
